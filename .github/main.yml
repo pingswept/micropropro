@@ -11,7 +11,7 @@ jobs:
         uses: garygrossgarten/github-action-ssh@release
         with:
           command: cd micropropro; git pull https://github.com/pingswept/micropropro.git; /snap/bin/hugo; cp -r ./public/* /var/www/html/
-          host: 
+          host: 45.79.177.197
           username: root
           passphrase: ${{ secrets.PASSPHRASE }}
           privateKey: ${{ secrets.PRIVATE_KEY}}
