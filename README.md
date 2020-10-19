@@ -1,5 +1,5 @@
-# ME30 website
-### Tufts University, Fall 2020
+# ME 194 MPP website
+### Tufts University, Spring 2021
 
 ### Working on the website
 This site is built using Hugo. Every time you commit changes to this repository, a Github Action is triggered, which pulls a copy of the repository to our webserver, and tells the webserver to run Hugo to update the live site. It takes around 10 seconds for this to happen; after that, your changes will be live on the internet.
