@@ -1,0 +1,11 @@
+baseURL = "http://micropropro.com/"
+languageCode = "en-us"
+title = "Tufts ME 194"
+theme = "book"
+enableGitInfo = true
+[params]
+  BookSection = '*'
+  BookRepo = 'https://github.com/pingswept/micropropro'
+  BookEditPath = 'edit/master/content'
+[markup.goldmark.renderer]
+  unsafe= true
