@@ -8,7 +8,7 @@ draft: false
 
 ME 194 is a new course at Tufts University in the spring of 2021 taught by Brandon Stafford.
 
-You're going to love it.
+You're going to love it!
 
 ## Instructors
 
