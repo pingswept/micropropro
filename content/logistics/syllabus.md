@@ -10,6 +10,8 @@ ME 194, Microcontroller Programming Projects, Section MPP, class number xxxxx
 
 ## This is a new course, so we are attaching the wings to the plane as the plane is accelerating down the runway.
 
+If you see weird references to ME 30, that's because this website is based off the ME 30 website, and I'm still revising it.
+
 ## Course description
 
 Project-based investigation of embedded systems programming in C and assembly. Distributed version control. Building firmware, bootloaders, and watchdogs. Microcontroller hardware peripherals, with emphasis on the Arduino and Raspberry Pi families. TCP/IP, ARP, 802.1x protocols and packet sniffing. Independent final project of student’s choosing.
