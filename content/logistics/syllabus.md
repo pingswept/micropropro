@@ -31,6 +31,24 @@ Learn some stuff! (more details soon)
 •	Ethics in electronics and robotics
 •	Professional responsibilities and decision-making; career trajectories
 
+Other topics we may or may not cover:
+
+1. git, Github
+2. Linux, shell scripting
+3. something like Puppet, Chef, or Ansible
+4. maybe VMs/Docker?
+5. security: passwords, hashes, buffer overflows, fuzzing
+6. automated testing, continuous integration, verification, validation
+7. functional programming, idempotency, reproducible builds
+8. assembly
+9. machine code, compilation, instruction sets, computer architecture
+10. linking, loading, memory maps
+11. open source licenses, copyright, patents, trademarks, and trade secrets
+12. compilers vs. interpreters
+13. SSH tunnels
+14. state machines
+15. reverse engineering binary blobs
+
 ## Teachers
 
 Brandon Stafford, brandon.stafford@tufts.edu
