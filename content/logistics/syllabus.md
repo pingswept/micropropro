@@ -4,7 +4,7 @@ draft: false
 ---
 # Microcontroller Programming Projects
 
-ME 194, Microcontroller Programming Projects, Section MPP, class number xxxxx
+ME 193, Microcontroller Programming Projects, Section MPP, class number 23715
 
 # DRAFT DRAFT DRAFT
 
@@ -33,7 +33,7 @@ Learn some stuff! (more details soon)
 
 Other topics we may or may not cover:
 
-1. git, Github
+1. git, Github (we're doing this)
 2. Linux, shell scripting
 3. something like Puppet, Chef, or Ansible
 4. maybe VMs/Docker?
