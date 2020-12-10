@@ -1,4 +1,4 @@
-# ME 194 MPP website
+# ME 193 MPP website
 ### Tufts University, Spring 2021
 
 ### Working on the website
