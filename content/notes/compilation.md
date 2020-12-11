@@ -178,3 +178,5 @@ Disassembly of section .text:
   2c:   e49db004        pop     {fp}            ; (ldr fp, [sp], #4)
   30:   e12fff1e        bx      lr
 ```
+
+More info about shrinking binaries: https://journal.lunar.sh/2020/10/24/tiny-linux-c-binaries.html
