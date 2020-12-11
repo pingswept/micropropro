@@ -9,7 +9,7 @@ Suppose you want to compile a short C program into machine code, the bits that y
 
 Let's start with a stupidly simple program, called `simple.c`.
 
-```
+```c
 void main() {
     int x = 255;
     x = x + 0xAAAA;
@@ -26,17 +26,18 @@ We can look at some of the steps along the way.
 
 `gcc -S simple.c` just compiles the C into assembly, but doesn't translate that into machine code.
 
-```
+```sh
 pi@raspberrypi:~ $ ls -l
-total 16
--rwxr-xr-x 1 pi pi 7912 Dec 11 14:42 a.out
+total 20
+-rwxr-xr-x 1 pi pi 7912 Dec 11 15:30 a.out
 -rw-r--r-- 1 pi pi   53 Dec 11 14:42 simple.c
+-rw-r--r-- 1 pi pi  852 Dec 11 15:30 simple.o
 -rw-r--r-- 1 pi pi  807 Dec 11 14:56 simple.s
 ```
 
 Here are the contents of simple.s.
 
-```
+```sh
 pi@raspberrypi:~ $ cat simple.s
         .arch armv6
         .eabi_attribute 28, 1
@@ -98,7 +99,7 @@ All the sp and fp stuff deal with stack pointer and frame pointer, respectively.
 
 `gcc -c simple.c` compiles the C code to assembly, and then translates that into machine code.
 
-```
+```sh
 pi@raspberrypi:~ $ xxd simple.o
 00000000: 7f45 4c46 0101 0100 0000 0000 0000 0000  .ELF............
 00000010: 0100 2800 0100 0000 0000 0000 0000 0000  ..(.............
@@ -158,7 +159,7 @@ pi@raspberrypi:~ $ xxd simple.o
 
 We can disassemble this with ` objdump`.
 
-```
+```sh
 pi@raspberrypi:~ $ objdump -d simple.o
 simple.o:     file format elf32-littlearm
 Disassembly of section .text:
