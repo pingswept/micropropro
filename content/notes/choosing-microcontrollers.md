@@ -27,5 +27,26 @@ There are two other manufacturers to keep in mind: Espressif and Nordic Semicond
 
 Espressif makes the ESP8266 and ESP32 series, which are frightenly cheap and popular among hobbyists.
 
-Nordic makes the nRF52 series of Cortex M4 microcontrollers, which have embedded Bluetooth modules. They're probably the cheapest way to mess around with Bluetooth Digikey sells their demo board as 1490-1073-ND for $10.00.
+Nordic makes the nRF52 series of Cortex M4 microcontrollers, which have embedded Bluetooth modules. They're probably the cheapest way to mess around with Bluetooth. Digikey sells their demo board as 1490-1073-ND for $10.00.
 
+## Peripherals
+
+Next, you can narrow your search down by what peripherals you need. Peripherals are hardware modules that are built into the chips. Examples include:
+* UART
+* SPI
+* I2C
+* PWM
+* A/D
+* DAC
+* CAN
+* USB
+* BLE
+* Wifi
+
+Obviously, if you need 3 UARTs, 2 I2C ports, and a USB controller built-in, that narrows down your choices substantially.
+
+## 8-bit vs 32-bit
+
+Microcontrollers consume data and instructions in either 8 bit or 32 bit chunks. (There are also lots of weird microcontrollers, like the irritatingly named PIC16 series, which uses a 14-bit address bus, or others that use 16 or 24 bits.)
+
+Fortunately, this choice is getting easier every day as the price of 32-bit parts is dropping rapidly. Right now, for a given clock speed, 8-bit devices are slower, but cheaper, while 32-bit devices are faster, but more expensive. Soon, 32-bit devices may be both cheaper and faster. Unless you are designing a high-volume product where price is crucial, you should lean toward a 32-bit part.
