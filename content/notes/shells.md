@@ -25,6 +25,8 @@ In the big picture, it doesn't really matter what shell you use, but the newer s
 * fish
 * ion
 
+Wikipedia has a [fairly comprehensive list of shells](https://en.wikipedia.org/wiki/Comparison_of_command_shells), with comparisons, as you would expect.
+
 ## Zsh ##
 
 `Zsh` is a particularly fine modern shell. On a Raspberry Pi, you can install it like this: `sudo apt install zsh`
