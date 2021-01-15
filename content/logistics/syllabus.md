@@ -6,6 +6,8 @@ draft: false
 
 ME 193, Microcontroller Programming Projects, Section MPP, class number 23715
 
+## If you are in this class, go join our Slack workspace: https://micropropro.slack.com with your Tufts email.
+
 # DRAFT DRAFT DRAFT
 
 ## This is a new course, so we are attaching the wings to the plane as the plane is accelerating down the runway.
@@ -17,8 +19,6 @@ If you see weird references to ME 30, that's because this website is based off t
 Project-based investigation of embedded systems programming in C and assembly. Distributed version control. Building firmware, bootloaders, and watchdogs. Microcontroller hardware peripherals, with emphasis on the Arduino and Raspberry Pi families. TCP/IP, ARP, 802.1x protocols and packet sniffing. Independent final project of student’s choosing.
 
 ## Course goals
-
-Learn some stuff! (more details soon)
 
 ### Key topics (more details soon)
 •	Arduino hardware
@@ -53,11 +53,16 @@ Other topics we may or may not cover:
 
 Brandon Stafford, brandon.stafford@tufts.edu
 
+## Class meetings
+
+Tuesdays and Thursdays, 10:30 AM - 11:45 AM in Brandon's Zoom room: https://tufts.zoom.us/my/brandon.of.nolop
+
 ## Office hours
 
 Brandon's office hours are:
 
-*   Tues/Thurs 3-4:30pm, via Slack and Zoom (https://tufts.zoom.us/my/brandon.of.nolop)
+*   Tues/Thurs 3-4:30pm, via Zoom (https://tufts.zoom.us/my/brandon.of.nolop)
+*   All the other hours, via Slack (https://micropropro.slack.com) (register with your Tufts email)
 
 ## Honesty
 
