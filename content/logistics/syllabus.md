@@ -57,7 +57,7 @@ Brandon Stafford, brandon.stafford@tufts.edu
 
 Brandon's office hours are:
 
-*   Tues/Thurs 3-4:30pm, via ME 30 Slack and Zoom (https://tufts.zoom.us/my/brandon.of.nolop)
+*   Tues/Thurs 3-4:30pm, via Slack and Zoom (https://tufts.zoom.us/my/brandon.of.nolop)
 
 ## Honesty
 
