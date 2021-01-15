@@ -1,12 +1,12 @@
 ---
-title: ME 194 home
+title: ME 193 home
 type: homepage
 draft: false
 ---
 
-# ME 194 MPP: Microcontroller Programming Projects
+# ME 193 MPP: Microcontroller Programming Projects
 
-ME 194 is a new course at Tufts University in the spring of 2021 taught by Brandon Stafford.
+MPP is a new course at Tufts University in the spring of 2021 taught by Brandon Stafford.
 
 You're going to love it.
 
