@@ -61,12 +61,14 @@ Brandon's office hours are:
 
 ## Honesty
 
-We take honesty very seriously. Not only are we required to report violations of academic integrity, we are glad to do so. We are all fortunate to be at Tufts; there is no excuse for squandering that opportunity by representing someone else's work as your own. If you're unsure about the details, read the [Tufts Academic Integrity Policy](https://students.tufts.edu/student-affairs/student-life-policies/academic-integrity-policy).
+I take honesty very seriously. Not only am I required to report violations of academic integrity, I am glad to do so. We are all fortunate to be at Tufts; there is no excuse for squandering that opportunity by representing someone else's work as your own. If you're unsure about the details, read the [Tufts Academic Integrity Policy](https://students.tufts.edu/student-affairs/student-life-policies/academic-integrity-policy).
 
 
 ## Accommodations for students with disabilities
 
-Tufts is committed to providing equal access and support to all qualified students through reasonable accommodations so that each student may fully participate in the Tufts experience. If you have a disability that requires accommodations, please email accessibility@tufts.edu or call 617-627-4539 to make an appointment to talk with a Student Accessibility Services representative about appropriate accommodations.
+Tufts is committed to providing equal access and support to all qualified students through reasonable accommodations so that each student may fully participate in the Tufts experience. If you have a disability that requires accommodations, please email accessibility@tufts.edu or call 617-627-4539 to make an appointment to talk with a Student Accessibility Services representative about appropriate accommodations. Accommodations cannot be enacted retroactively.
 
-Please be aware that accommodations cannot be enacted retroactively.
+## Financial hardship
+
+Because this course is project-based, there will be some expenses for materials. You'll need to buy at least a Raspberry Pi microcontroller, plus pay for the fabrication of at least one printed circuit board. In all, I would expect a total cost on the order of $100. If this is a financial hardship for you, please DM/email/whatever me; I'll find a way to get you what you need. Nobody should find a way to pay $70,000 for Tufts, and then be held back because they're short $50. 
 
