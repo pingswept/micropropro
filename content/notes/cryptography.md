@@ -7,7 +7,7 @@ Cryptography is a massive field; one could easily spend an entire semester on th
 
 ## Hashes ##
 
-You may be familiar with the side dish where you chop up some potatoes, fry them in butter, and add salt and pepper. The potatoes get hashed, and then browned, so we call this "hash browns." Note that it is easy to make hash browns, but impossible to turn hash browns back into potatoes.
+You may be familiar with the side dish where you chop up some potatoes, fry them in butter, and add salt. The potatoes get hashed, and then browned, so we call this "hash browns." Note that it is easy to make hash browns, but impossible to turn hash browns back into potatoes.
 
 Just like hashing potatoes, a hash function is a mathematical function that is easy to calculate in one direction, but difficult to reverse.
 
@@ -48,7 +48,7 @@ When you pick a password for a website, the hash of the password is generated, a
 
 ## Rainbow tables and salts ##
 
-If you log in to your Raspberry Pi, you can see the password hash in the file `/etc/shadow`.
+If you log in to your Raspberry Pi, you can see password hashes in the file `/etc/shadow`.
 
 You'll see a section that looks like this:
 
@@ -74,3 +74,13 @@ pi@raspberrypi:~ $ openssl passwd -6 -salt TcStb3ADs0Vmhl1P
 Password: (I typed my password here.)
 $6$TcStb3ADs0Vmhl1P$HOz0afl84EFN0Ws4IFhEtgW6iFt3VbmI2u4Q6WsAy9IPeXiJRJ0vOhBPzGRNEOrR.gdI6jWe7Nmy8Ub1ZSRHY/
 ```
+
+If an attacker can get access to your shadow file, then they could try to figure out what password generates the right hash. They could do this using a rainbow table, which is a precomputed list of the hashes of all possible passwords of a certain length.
+
+But, we have a counter-measure deployed against that: salts. A salt is a random string that is stored with the hash and added to the password before hashing. With the salt added, the attacker needs a new rainbow table for each possible salt. (You have to assume that the attacker has access to your salts as well. Otherwise, you would just use the salts as passwords. But generally, people fail at keeping valuable lists of random strings secret.)
+
+## Bcrypt and scrypt ##
+
+In our modern era, it turns out that computing a rainbow table of hashes is, computationally speaking, relatively cheap. Now, instead of fast hashes like MD5 or SHA-256, we use variable-difficulty algorithms like bcrypt or scrypt. Each has a work factor that can be increased to change how long the hash takes to calculate.
+
+Bcrypt
