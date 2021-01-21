@@ -59,7 +59,7 @@ pi:$6$TcStb3ADs0Vmhl1P$HOz0afl84EFN0Ws4IFhEtgW6iFt3VbmI2u4Q6WsAy9IPeXiJRJ0vOhBPz
 _rpc:*:18494:0:99999:7:::
 statd:*:18494:0:99999:7:::
 ```
-It's a list of usernames, followed by information about each user. Most of them have `*` after the first colon, which means they have no password hash, and thus can''t log in. Those user accounts are just for the operating system to go about its business in an orderly way.
+This is a list of usernames, followed by information about each user. Most of them have `*` after the first colon, which means they have no password hash, and thus can't log in. Those user accounts are just for the operating system to go about its business in an orderly way.
 
 If you look at the user called `pi`, you'll see after the first colon: `$6$TcStb3ADs0Vmhl1P$HOz0afl84EFN0Ws4IFhEtgW6iFt3VbmI2u4Q6WsAy9IPeXiJRJ0vOhBPzGRNEOrR.gdI6jWe7Nmy8Ub1ZSRHY/`
 
