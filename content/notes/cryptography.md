@@ -43,3 +43,32 @@ Similarly, PyPI, the Python software repository, publishes SHA256, MD5, and BLAK
 When you pick a password for a website, the hash of the password is generated, and the website stores the hash, but not the password itself. Then, when you want to log in again, you hash the password again, and compare it against the stored hash. Nobody else can figure out what password to use to generate that hash, so nobody can log in as you. Nobody can steal all the passwords from the site, because the website doesn't have them.
 
 (Note: this is how it should work, but some people still store all the passwords in one big file. They are idiots. If a website ever sends you your password, you should realize that they must have been storing your password instead of a hash, and then you should stop trusting that website.)
+
+## More about hashes ##
+
+If you log in to your Raspberry Pi, you can see the password hash in the file `/etc/shadow`.
+
+You'll see a section that looks like this:
+
+```
+systemd-timesync:*:18494:0:99999:7:::
+systemd-network:*:18494:0:99999:7:::
+systemd-resolve:*:18494:0:99999:7:::
+_apt:*:18494:0:99999:7:::
+pi:$6$TcStb3ADs0Vmhl1P$HOz0afl84EFN0Ws4IFhEtgW6iFt3VbmI2u4Q6WsAy9IPeXiJRJ0vOhBPzGRNEOrR.gdI6jWe7Nmy8Ub1ZSRHY/:18494:0:99999:7:::messagebus:*:18494:0:99999:7:::
+_rpc:*:18494:0:99999:7:::
+statd:*:18494:0:99999:7:::
+```
+It's a list of usernames, followed by information about each user. Most of them have `*` after the first colon, which means they have no password hash, and thus can''t log in. Those user accounts are just for the operating system to go about its business in an orderly way.
+
+If you look at the user called `pi`, you'll see after the first colon: `$6$TcStb3ADs0Vmhl1P$HOz0afl84EFN0Ws4IFhEtgW6iFt3VbmI2u4Q6WsAy9IPeXiJRJ0vOhBPzGRNEOrR.gdI6jWe7Nmy8Ub1ZSRHY/`
+
+This is actually 3 fields, separated by the character `$`. The first field is the value `6`, which indicates that SHA-512 is used for the hash. The second field, `TcStb3ADs0Vmhl1P`, is called the salt. The last field, which begins `HOz0af`, is the hash itself.
+
+You can verify that the hash is the correct one using the `openssl` command line tool.
+
+```
+pi@raspberrypi:~ $ openssl passwd -6 -salt TcStb3ADs0Vmhl1P
+Password: (I typed my password here.)
+$6$TcStb3ADs0Vmhl1P$HOz0afl84EFN0Ws4IFhEtgW6iFt3VbmI2u4Q6WsAy9IPeXiJRJ0vOhBPzGRNEOrR.gdI6jWe7Nmy8Ub1ZSRHY/
+```
