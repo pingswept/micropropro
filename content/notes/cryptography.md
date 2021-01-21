@@ -39,3 +39,7 @@ For example, the Raspberry Pi people uses SHA-256 for OS download checks. The ve
 Similarly, PyPI, the Python software repository, publishes SHA256, MD5, and BLAKE2-256 hashes for its downloads.
 
 ### Password authentication ###
+
+When you pick a password for a website, the hash of the password is generated, and the website stores the hash, but not the password itself. Then, when you want to log in again, you hash the password again, and compare it against the stored hash. Nobody else can figure out what password to use to generate that hash, so nobody can log in as you.
+
+(Note: this is how it should work, but some people still store all the passwords in one big file. They are idiots. If a website ever sends you your password, you should realize that they must have been storing your password instead of a hash, and then you should stop trusting that website.)
