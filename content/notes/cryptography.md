@@ -79,7 +79,7 @@ If an attacker can get access to your shadow file, then they could try to figure
 
 But, we have a counter-measure deployed against that: salts. A salt is a random string that is stored with the hash and added to the password before hashing. With the salt added, the attacker needs a new rainbow table for each possible salt. (You have to assume that the attacker has access to your salts as well. Otherwise, you would just use the salts as passwords. But generally, people fail at keeping valuable lists of random strings secret.)
 
-## Bcrypt, Scrypt, and Argon2##
+## Bcrypt, Scrypt, and Argon2 ##
 
 In our modern era, it turns out that computing a rainbow table of hashes is, computationally speaking, relatively cheap. Now, instead of fast hashes like MD5 or SHA-256, we use variable-difficulty algorithms like bcrypt or scrypt. Each has a work factor that can be increased to change how long the hash takes to calculate.
 
