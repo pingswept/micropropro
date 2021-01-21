@@ -13,10 +13,10 @@ Just like hashing potatoes, a hash function is a mathematical function that is e
 
 ## A few popular hashes ##
 
-* MD5: "message digest", 128 bits, 2^128 = 3.4 x 10^38
-* SHA-1: "secure hash algorithm", 160 bits, 2^160 = 1.5 x 10^48
-* SHA-256: "secure hash algorithm", 256 bits, 2^256 = 1.2 x 10^77
-* BDH8: "Brandon's dumb hash", 8 bits, 2^8 = 256
+* MD5: "message digest", 128 bits, 2<sup>128</sup> = 3.4 x 10<sup>38</sup>
+* SHA-1: "secure hash algorithm", 160 bits, 2<sup>160</sup> = 1.5 x 10<sup>48</sup>
+* SHA-256: "secure hash algorithm", 256 bits, 2<sup>256</sup> = 1.2 x 10<sup>77</sup>
+* BDH8: "Brandon's dumb hash", 8 bits, 2<sup>8 = 256
 
 The first three are real hashes in actual use around the world. Given the speed of modern PCs, MD5 is now considered broken for password authentication. SHA-1 is harder to reverse, but still within the range of state-level adversaries (e.g. the NSA).
 
