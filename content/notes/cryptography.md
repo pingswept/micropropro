@@ -79,8 +79,12 @@ If an attacker can get access to your shadow file, then they could try to figure
 
 But, we have a counter-measure deployed against that: salts. A salt is a random string that is stored with the hash and added to the password before hashing. With the salt added, the attacker needs a new rainbow table for each possible salt. (You have to assume that the attacker has access to your salts as well. Otherwise, you would just use the salts as passwords. But generally, people fail at keeping valuable lists of random strings secret.)
 
-## Bcrypt and scrypt ##
+## Bcrypt, Scrypt, and Argon2##
 
 In our modern era, it turns out that computing a rainbow table of hashes is, computationally speaking, relatively cheap. Now, instead of fast hashes like MD5 or SHA-256, we use variable-difficulty algorithms like bcrypt or scrypt. Each has a work factor that can be increased to change how long the hash takes to calculate.
 
-Bcrypt
+Bcrypt has been around since 1999. It was created by some OpenBSD contributors and is widely used.
+
+Scrypt, created by Tarsnap founder Colin Percival in 2009, tries to do roughly the same thing as bcrypt, but can increase costs in both time and memory.
+
+Argon2 is the newest competitor, created in 2015. It has parameters that make it more costly in time, memory, and parallelism.
