@@ -11,7 +11,7 @@ You may be familiar with the side dish where you chop up some potatoes, fry them
 
 Just like hashing potatoes, a hash function is a mathematical function that is easy to calculate in one direction, but difficult to reverse.
 
-## A few popular hashes and an example ##
+## A few popular hash algorithms and an example ##
 
 * MD5: "message digest", 128 bits, 2<sup>128</sup> = 3.4 x 10<sup>38</sup>
 * SHA-1: "secure hash algorithm", 160 bits, 2<sup>160</sup> = 1.5 x 10<sup>48</sup>
@@ -20,7 +20,9 @@ Just like hashing potatoes, a hash function is a mathematical function that is e
 
 The first three are real hashes in actual use around the world. Given the speed of modern PCs, MD5 is now considered broken for password authentication. SHA-1 hash collisions are harder to calculate, but still within the range of state-level adversaries (e.g. the NSA).
 
-The last one, BDH8, is a function that I'm making up just as an example; I define it as just an exclusive-OR (XOR) of each byte with the next one until you get to the end of whatever you're hashing. It is trivially broken, but it has the rest of the attributes of a typical hash function. Specifically, it maps all lists of bytes onto a finite output range. The outputs are evenly distributed, and small changes in the input value create large changes in the output value, on average.
+The last one, BDH8, is a function that I'm making up just as an example; I define it as just an XOR of each byte with the next one until you get to the end of whatever you're hashing. It is trivially broken, but it has the rest of the attributes of a typical hash function. Specifically, it maps all lists of bytes onto a finite output range. The outputs are evenly distributed, and small changes in the input value create large changes in the output value, on average.
+
+(Wait, what does XOR mean? That means the exclusive-or operation. If you have two bits, the output is 1 if one bit OR the other is 1. If the two bits are both 1 or both 0, the output is 0.)
 
 As an example, let's run BDH8 on the string "fun". By checking [asciitable.com](https://asciitable.com), we can figure out that the characters "f", "u", and "n" are represented by the bytes `0x66`, `0x75`, and `0x6E`. In binary, we would represent those as `b0110 0110`, `b0111 0101`, and `b0110 1110`.
 
@@ -44,7 +46,7 @@ When you pick a password for a website, the hash of the password is generated, a
 
 (Note: this is how it should work, but some people still store all the passwords in one big file. They are idiots. If a website ever sends you your password, you should realize that they must have been storing your password instead of a hash, and then you should stop trusting that website.)
 
-## More about hashes ##
+## Rainbow tables and salts ##
 
 If you log in to your Raspberry Pi, you can see the password hash in the file `/etc/shadow`.
 
