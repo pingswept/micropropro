@@ -82,6 +82,12 @@ A company like Dropbox can use hashes to quickly scan through milions of files t
 
 Similarly, anti-virus companies can use hashes to identify malware, which is convenient for files that you generally don't want to open.
 
+### Attestation ###
+
+Look at [this tweet by Patrick McKenzie](https://twitter.com/patio11/status/1241551327743770624). He is using the tweet to demonstrate that he had created a certain file by a the date of the tweet. The file contained [predictions about the path of covid19 in Japan](https://www.kalzumeus.com/2020/04/21/japan-coronavirus/), but that's not relevant here. The point is that he was saying, "Hey, world, my predictions aren't just wisdom in hindsight, because look, I predicted this, and you can be sure of that because I tweeted this hash back in March. You know these are real predictions because I can't change my past tweet history, and I can't change my predictions because I can't find SHA-512 hash collisions."
+
+We would call this an attestation. Patrick McKenzie has more information about [the practice in the computer security community](https://www.kalzumeus.com/essays/dropping-hashes/), if you are interested.
+
 ## Rainbow tables and salts ##
 
 If you log in to your Raspberry Pi, you can see password hashes in the file `/etc/shadow`.
