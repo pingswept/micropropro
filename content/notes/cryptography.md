@@ -33,7 +33,22 @@ The first four are real hashes in actual use around the world. CRC-32 is a check
 
 *Update: Ming Chow tells me that SHA-1 is, in fact, thoroughly broken: http://shattered.io/*
 
-The last one, BDH8, is a function that I'm making up just as an example; I define it as just an XOR of each byte with the next one until you get to the end of whatever you're hashing. It is trivially broken, but it has the rest of the attributes of a typical hash function. Specifically, it maps all lists of bytes onto a finite output range. The outputs are evenly distributed, and small changes in the input value create large changes in the output value, on average.
+You can calculate hashes on your Raspberry Pi pretty easily. Here are a few examples.
+
+```
+pi@raspberrypi:~ $ echo this-is-a-random-test-string | cksum # calculates the CRC-32 checksum
+3127080174 29 # the 29 at the end is the number of bytes in the input
+pi@raspberrypi:~ $ echo this-is-a-random-test-string | md5sum
+a13c14dbabf814f24b60e4ec3de68b22  -
+pi@raspberrypi:~ $ echo this-is-a-random-test-string | sha1sum
+43ea18961ab2d5740b94ccd015f2ab92aaed22b4  -
+pi@raspberrypi:~ $ echo this-is-a-random-test-string | sha256sum
+5347838842332698f7c1e58d66621104cc7a3a8e0515d269eb84a333922997d3  -
+```
+
+## Brandon's dumb hash ##
+
+The last hash, BDH8, is a function that I'm making up just as an example; I define it as just an XOR of each byte with the next one until you get to the end of whatever you're hashing. It is trivially broken, but it has the rest of the attributes of a typical hash function. Specifically, it maps all lists of bytes onto a finite output range. The outputs are evenly distributed, and small changes in the input value create large changes in the output value, on average.
 
 (Wait, what does XOR mean? That means the exclusive-or operation. If you have two bits, the output is 1 if one bit OR the other is 1. If the two bits are both 1 or both 0, the output is 0.)
 
@@ -58,6 +73,14 @@ Similarly, PyPI, the Python software repository, publishes SHA256, MD5, and BLAK
 When you pick a password for a website, the hash of the password is generated, and the website stores the hash, but not the password itself. Then, when you want to log in again, you hash the password again, and compare it against the stored hash. Nobody else can figure out what password to use to generate that hash, so nobody can log in as you. Nobody can steal all the passwords from the site, because the website doesn't have them.
 
 (Note: this is how it should work, but some people still store all the passwords in one big file. They are idiots. If a website ever sends you your password, you should realize that they must have been storing your password instead of a hash, and then you should stop trusting that website.)
+
+### File identification ###
+
+A company like Dropbox can use hashes to quickly scan through milions of files to see whether you are storing illegal content on their servers. They can also use this for deduplication: if lots of people are storing an MP3 of the latest hit by Ms. Knowles-Carter, they only need to store one copy, which saves them disk space.
+
+(Digression, if you're interested: [filesystem deduplication is a sidechannel](https://mjg59.dreamwidth.org/55638.html).)
+
+Similarly, anti-virus companies can use hashes to identify malware, which is convenient for files that you generally don't want to open.
 
 ## Rainbow tables and salts ##
 
