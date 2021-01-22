@@ -23,12 +23,15 @@ When you find two inputs that a hash function maps to the same output, that's ca
 
 ## A few popular hashes and an example ##
 
+* CRC-32: "cyclic redundancy check", 32 bits, 2<sup>32</sup> = 4.3 x 10<sup>9</sup>
 * MD5: "message digest", 128 bits, 2<sup>128</sup> = 3.4 x 10<sup>38</sup>
 * SHA-1: "secure hash algorithm", 160 bits, 2<sup>160</sup> = 1.5 x 10<sup>48</sup>
 * SHA-256: "secure hash algorithm", 256 bits, 2<sup>256</sup> = 1.2 x 10<sup>77</sup>
 * BDH8: "Brandon's dumb hash", 8 bits, 2<sup>8</sup> = 256
 
-The first three are real hashes in actual use around the world. Given the speed of modern PCs, MD5 is now considered broken for password authentication. SHA-1 hash collisions are harder to calculate, but still within the range of state-level adversaries (e.g. the NSA). Update: Ming Chow tells me that SHA-1 is, in fact, thoroughly broken: http://shattered.io/
+The first four are real hashes in actual use around the world. CRC-32 is a checksum that is easily broken, but so fast that's its still useful for error correction in data transmission. Given the speed of modern PCs, MD5 is now considered broken for password authentication. SHA-1 hash collisions are harder to calculate, but still within the range of state-level adversaries (e.g. the NSA).
+
+*Update: Ming Chow tells me that SHA-1 is, in fact, thoroughly broken: http://shattered.io/*
 
 The last one, BDH8, is a function that I'm making up just as an example; I define it as just an XOR of each byte with the next one until you get to the end of whatever you're hashing. It is trivially broken, but it has the rest of the attributes of a typical hash function. Specifically, it maps all lists of bytes onto a finite output range. The outputs are evenly distributed, and small changes in the input value create large changes in the output value, on average.
 
