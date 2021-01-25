@@ -29,7 +29,11 @@ The Raspberry Pi is even more widespread than the Arduino, but it's more of a sm
 
 ## Choosing a microcontroller
 
-Let's suppose you need to choose a microcontroller. There are something like 100 different companies that make microcontrollers (and probably more if you include specialized chips that contain microcontrollers, but are not intended for general purpose use, like chips used in cameras or cell phones). However, most of those companies will not actually do business with you unless you are working for a large company that might plausibly place an order for 100,000 chips. Realistically, as a college student, or even an engineer working at most startups or most smallish companies, you are limited to ordering a chip from one of the large electronics distributors in the US: Digikey, Mouser, Newark, Arrow, or Avnet. If you try to call a microcontroller manufacturer like Microchip or Cypress, they will refer you their local sales office. That sales office will ask you how many parts you expect to order per year, and when you say a number like "Uh, I don't know, maybe 1000?" they will refer you to Digikey.
+Let's suppose you need to choose a microcontroller. There are something like 100 different companies that make microcontrollers (and probably more if you include specialized chips that contain microcontrollers, but are not intended for general purpose use, like chips used in cameras or cell phones). However, most of those companies will not actually do business with you unless you are working for a large company that might plausibly place an order for 100,000 chips.
+
+Realistically, as a college student, or even an engineer working at most startups or most smallish companies, you are limited to ordering a chip from one of the large electronics distributors in the US: Digikey, Mouser, Newark, Arrow, or Avnet.
+
+If you try to call a microcontroller manufacturer like Microchip or Cypress, they will refer you their local sales office. That sales office will ask you how many parts you expect to order per year, and when you say a number like "Uh, I don't know, maybe 1000?" they will refer you to Digikey.
 
 That actually makes your job a little easier, because the distributors are dominated by 10 companies. If, near the start of 2021, you judge their popularity by the number of different part numbers they sell, averaged across Digikey and Mouser, you come up with this list.
 
@@ -48,6 +52,8 @@ That actually makes your job a little easier, because the distributors are domin
 | Nordic          |              98 |              131 |         0% |
 | Espressif       |              17 |                0 |         0% |
 
+The shrewd among you will have noticed that this list actually includes 12, not 10, manufacturers, and the two at the bottom (Nordic and Espressif) have virtually zero parts for sale.
 
+Nordic is on the list just because their chips are the cheapest way to get started with Bluetooth. Specifically, their nRF52840 demo board costs $10 at Digikey and Mouser.
 
-
+Espressif is on the list because they make the cheapest wifi modules, the ESP8266 and ESP32 series. You can get them for something like $4 and $11 respectively. Intriguingly, these modules can also be programmed with the Arduino IDE, making them pretty great for prototyping.
