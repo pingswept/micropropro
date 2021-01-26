@@ -35,24 +35,23 @@ Realistically, as a college student, or even an engineer working at most startup
 
 If you try to call a microcontroller manufacturer like Microchip or Cypress, they will refer you their local sales office. That sales office will ask you how many parts you expect to order per year, and when you say a number like "Uh, I don't know, maybe 1000?" they will refer you to Digikey.
 
-That actually makes your job a little easier, because the distributors are dominated by 10 companies. If, near the start of 2021, you judge their popularity by the number of different part numbers they sell, averaged across Digikey and Mouser, you come up with this list.
+That actually makes your job a little easier, because the distributors are dominated by 9 companies. If, near the start of 2021, you judge their popularity by the number of different part numbers they sell, averaged across Digikey and Mouser, you come up with this list.
 
-| Manufacturer    | Parts on Mouser | Parts on Digikey | Part share |
-| --------------- | --------------- | ---------------- | ---------- |
-| Microchip/Atmel |           23450 |              643 |        21% |
-| Cypress         |            3489 |            13164 |        10% |
-| NXP/Freescale   |            8589 |             3209 |         8% |
-| Renesas         |            6291 |             3756 |         7% |
-| ST              |            3878 |             3720 |         5% |
-| TI              |            4610 |             1795 |         4% |
-| Silicon Labs    |            4027 |             1120 |         4% |
-| Zilog           |             965 |             2264 |         2% |
-| Infineon        |             700 |              591 |         1% |
-| Analog Devices  |             681 |              308 |         1% |
-| Nordic          |              98 |              131 |         0% |
-| Espressif       |              17 |                0 |         0% |
+| Manufacturer     | Parts on Mouser | Parts on Digikey | Part share |
+| ---------------- | --------------- | ---------------- | ---------- |
+| Microchip/Atmel  |           23450 |              643 |        21% |
+| Infineon/Cypress |            4189 |            13755 |        11% |
+| NXP/Freescale    |            8589 |             3209 |         8% |
+| Renesas          |            6291 |             3756 |         7% |
+| ST               |            3878 |             3720 |         5% |
+| TI               |            4610 |             1795 |         4% |
+| Silicon Labs     |            4027 |             1120 |         4% |
+| Zilog            |             965 |             2264 |         2% |
+| Analog Devices   |             681 |              308 |         1% |
+| Nordic           |              98 |              131 |         0% |
+| Espressif        |              17 |                0 |         0% |
 
-The shrewd among you will have noticed that this list actually includes 12, not 10, manufacturers, and the two at the bottom (Nordic and Espressif) have virtually zero parts for sale.
+The shrewd among you will have noticed that this list actually includes 11, not 9, manufacturers, and the two at the bottom (Nordic and Espressif) have virtually zero parts for sale.
 
 Nordic is on the list just because their chips are the cheapest way to get started with Bluetooth. Specifically, their nRF52840 demo board costs $10 at Digikey and Mouser.
 
