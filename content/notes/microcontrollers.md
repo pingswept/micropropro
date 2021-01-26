@@ -5,7 +5,7 @@ draft: false
 
 ## Microcontroller vs. microprocessor
 
-Both microcontrollers and microprocessors are small chunks of silicon encased in black plastic with little wires or metal balls sticking out of them. They both act like little brains. The difference is that microcontrollers have memory and other circuitry embedded on the same silicon chip that can do stuff like talk to a USB port or send pulses to motor. Unfortunately, virtually all microprocessors now have at least some memory caches embedded in them, and they get additional peripherals added constantly.
+Both microcontrollers and microprocessors are small chunks of silicon encased in black plastic with little wires or metal balls sticking out of them. They both act like little brains. The difference is that microcontrollers have memory and other circuitry embedded on the same silicon chip that can do stuff like talk to a USB port or send pulses to motor. Unfortunately, virtually all microprocessors now have at least some memory caches embedded in them, and they get additional peripherals added constantly, so the distinction between the two terms is weakening.
 
 In practice, people use the words interchangeably, but the ones that are small, cheap, and not in a desktop, laptop, tablet, or phone, people tend to call microcontrollers. As mechanical engineers, you'll probably use microcontrollers to build small electromechanical systems. For example, as a mechanical engineer, you might be asked to work on
 
