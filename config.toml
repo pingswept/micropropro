@@ -1,6 +1,6 @@
 baseURL = "http://micropropro.com/"
 languageCode = "en-us"
-title = "Tufts ME 194"
+title = "Tufts ME 193: MPP"
 theme = "book"
 enableGitInfo = true
 [params]
