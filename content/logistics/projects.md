@@ -4,7 +4,7 @@ draft: false
 ---
 # Projects
 
-## P1: Design and build a new Rasperry Pi Pico accessory (due at 10:30 AM, Feb. 11)
+## P1: Design and build a new Rasperry Pi Pico accessory
 
 Design a small PCB that can plug into the headers of the [new Raspberry Pi Pico](https://www.raspberrypi.org/documentation/pico/getting-started/) that enhances its capabilities in a new way.
 
