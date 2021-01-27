@@ -10,7 +10,7 @@ draft: false
 |  1   |  2/2   |     THIS IS ALL WRONG! LEFT OVER FROM ME 30!                                           |                  |                                                   |
 |      |  2/4   |         |                  |                                                   |
 |  2   |  2/9   |        |         |          |
-|      |  2/11  |      |                  | [P1](/logistics/kit/)                        |
+|      |  2/11  |      |                  | [P1](/logistics/projects/#p1-design-and-build-a-new-raspberry-pi-pico-accessory)                        |
 |  3   |  2/16  |     NO CLASS, Monday schedule    |         |          |
 |      |  2/18  |         |         |          |
 |  4   |  2/23  |         |         |          |
