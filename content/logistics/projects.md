@@ -10,6 +10,8 @@ Design a small PCB that can plug into the headers of the [new Raspberry Pi Pico]
 
 The Pico is brand new (just released on January 21st, 2021), but I ordered enough for everyone in the class to have one. They are now out of stock everywhere I've looked.
 
+![Pile of Raspberry Pi Picos](/img/raspberry-pi-pico.jpg)
+
 It's okay if someone else has made a sort of similar board, but yours should be a new design. For example, there are [9 different boards available from Pimoroni](https://shop.pimoroni.com/collections/pico), but mostly, the field is wide open. Also, there are new sensors and other chips coming out every day. Ask your non-engineer friends what magical device they wish they had; build the closest approximation you can.
 
 In thinking through ideas, you might investigate the Pico's PIO modules. These are special chunks of silicon embedded in the Pico's processor that can be programmed in a 9-instruction assembly language to implement lots of weird digital protocols spoken by different sensors or actuators.
