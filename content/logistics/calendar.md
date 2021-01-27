@@ -10,7 +10,7 @@ draft: false
 |  1   |  2/2   |     THIS IS ALL WRONG! LEFT OVER FROM ME 30!                                           |                  |                                                   |
 |      |  2/4   |     [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/)    |                  |                                                   |
 |  2   |  2/9   |     KiCad Q & A    |     [Prototyping](http://andnowforelectronics.com/notes/prototyping/); [Multimeters](http://andnowforelectronics.com/notes/multimeter/); [PCB design](http://andnowforelectronics.com/notes/pcb/)    |          |
-|      |  2/11  |     PCB design                                                                         |                  | [P1](/logistics/projects/)                        |
+|      |  2/11  |     PCB design                                                                         |                  | [P1](/logistics/kit/)                        |
 |  3   |  2/16  |     NO CLASS, Monday schedule    |     [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)    |          |
 |      |  2/18  |     Drive a motor with a MOSFET    |         |          |
 |  4   |  2/23  |     Build an H-bridge    |     [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/)    |          |
