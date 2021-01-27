@@ -26,5 +26,5 @@ A few detailed requirements:
 
 A note about programming:
 
-This class will be mostly about programming microcontrollers. But, around 90% of you are really excited to make PCBs that enable new programming opportunities. PCB fabrication takes a while, so we have to get the PCB out the door first. We'll mostly on programming after this first project, but we'll also do a second revision of this board as one of the later projects.
+This class will be mostly about programming microcontrollers. But, around 90% of you are really excited to make PCBs that enable new programming opportunities. PCB fabrication takes a while, so we have to get the PCB out the door first. We'll mostly focus on programming after this first project, but we'll also do a second revision of this board as one of the later projects.
 
