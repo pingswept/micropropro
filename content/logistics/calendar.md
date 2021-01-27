@@ -5,12 +5,12 @@ draft: false
 
 
 
-| Week |  Date  |     [Pods](http://andnowforelectronics.com/logistics/syllabus/#synchronous-elements)    |     Web Notes    |     Project deliverables due (by Wed. 11:59pm)    |
-|------|--------|-----------------------------------------------------------------------------------------|------------------|---------------------------------------------------|
-|  1   |  2/2   |     THIS IS ALL WRONG! LEFT OVER FROM ME 30!    |     [Voltage & current](http://andnowforelectronics.com/notes/voltage-and-current/); [Resistors](http://andnowforelectronics.com/notes/resistors/); [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/); [Capacitors](http://andnowforelectronics.com/notes/capacitors/)    |          |          |
-|      |  2/4   |     [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/)    |         |     [P1   proto](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)    |
+| Week |  Date  |     Class topic                                                                        | Notes            |               Assignments                         |
+|------|--------|----------------------------------------------------------------------------------------|------------------|---------------------------------------------------|
+|  1   |  2/2   |     THIS IS ALL WRONG! LEFT OVER FROM ME 30!                                           |                  |                                                   |
+|      |  2/4   |     [Voltage regulators](http://andnowforelectronics.com/notes/voltage-regulation/)    |                  |                                                   |
 |  2   |  2/9   |     KiCad Q & A    |     [Prototyping](http://andnowforelectronics.com/notes/prototyping/); [Multimeters](http://andnowforelectronics.com/notes/multimeter/); [PCB design](http://andnowforelectronics.com/notes/pcb/)    |          |
-|      |  2/11  |     PCB design    |         |     [P1   PCB](http://andnowforelectronics.com/logistics/projects/#project-1-build-a-breadboard-power-supply)    |
+|      |  2/11  |     PCB design                                                                         |                  | [P1](/logistics/projects/)                        |
 |  3   |  2/16  |     NO CLASS, Monday schedule    |     [Low power/high power](http://andnowforelectronics.com/notes/low-power-high-power/)    |          |
 |      |  2/18  |     Drive a motor with a MOSFET    |         |          |
 |  4   |  2/23  |     Build an H-bridge    |     [H-bridge motor driver](http://andnowforelectronics.com/notes/h-bridge/)    |          |
