@@ -5,7 +5,7 @@ draft: false
 
 
 
-| Week |  Date  |     Class topic (PROBABLY STILL TOTALLY OUT OF ORDER!!!)                               | Notes            |               Assignments                         |
+| Week |  Date  |     Class topic (PROBABLY STILL TOTALLY OUT OF ORDER!!!)                               | Notes            |               Assignment due dates (10:30 AM)                         |
 |------|--------|----------------------------------------------------------------------------------------|------------------|---------------------------------------------------|
 |  1   |  2/2   | Welcome, the plan, and intro to Git                                           |                  |                                                   |
 |      |  2/4   | Hashes        |                  | SB1: Git      |
