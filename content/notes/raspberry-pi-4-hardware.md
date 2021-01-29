@@ -11,3 +11,5 @@ List of ICs found on Pi 4
 * VIA Labs Inc. VL805 USB 3.0 host controller
 * Inside the metal cover, Cypress CYW43455 wifi/Bluetooth transceiver
 * MXL7704 power management IC
+
+![](/img/raspberry-pi-4-rf-shield-removed.png)
