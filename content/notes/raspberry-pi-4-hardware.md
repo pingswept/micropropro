@@ -12,4 +12,4 @@ List of ICs found on Pi 4
 * Inside the metal cover, Cypress CYW43455 wifi/Bluetooth transceiver
 * MXL7704 power management IC
 
-![](/img/raspberry-pi-4-rf-shield-removed.png)
+![Pi 4 with RF shield removed, from FCC filing](/img/raspberry-pi-4-rf-shield-removed.png)
