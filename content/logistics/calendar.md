@@ -9,8 +9,8 @@ draft: false
 |------|--------|----------------------------------------------------------------------------------------|------------------|---------------------------------------------------|
 |  1   |  2/2   | Welcome, the plan, and intro to Git                                           |                  |                                                   |
 |      |  2/4   | Hashes        |                  | SB1: Git      |
-|  2   |  2/9   | Cryptography       |         |          |
-|      |  2/11  | SSH and SSL     |                  | [P1](/logistics/projects/#p1-design-and-build-a-new-raspberry-pi-pico-accessory)                        |
+|  2   |  2/9   | Bitmasks and embedded C       |         |          |
+|      |  2/11  | Crypto, SSH and SSL |                  | [P1](/logistics/projects/#p1-design-and-build-a-new-raspberry-pi-pico-accessory)                        |
 |  3   |  2/16  | NO CLASS, Monday schedule    |         |          |
 |      |  2/18  | CPU architecture        |         | SB2: Shell customization |
 |  4   |  2/23  | Bootloaders  |         |          |
