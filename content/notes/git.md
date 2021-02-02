@@ -44,3 +44,12 @@ git push
 7. If you're just working locally, you're done. You can review your changes with `git log`. Otherwise, you can push your code to a remote repository, like Github, using `git push`.
 
 ![Git's conceptual structure](/img/git-conceptual-structure.jpg)
+
+## Authentication with Github ##
+
+In order to let your local computer, running git, push changes to a remote repository on Github, you need to identify your local computer to Github. On a Raspberry Pi, there are two steps. (It's similar on a Mac and probably on Windows too.)
+
+1. Generate a pair of encryption keys, one public and one private, using `ssh-keygen`.
+2. Go to Profile > Settings > SSH and GPG keys on Github and add your public key, which you can find at `/home/pi/.ssh/id_rsa.pub`. (The private key stays secret on the Raspberry Pi.)
+
+You can also push to Github using your username and password, but that method is deprecated and will probably disappear sometime soon.
