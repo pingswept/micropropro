@@ -13,3 +13,5 @@ List of ICs found on Pi 4
 * MXL7704 power management IC
 
 ![Pi 4 with RF shield removed, from FCC filing](/img/raspberry-pi-4-rf-shield-removed.png)
+
+[Raspberry Pi 4 partial schematic](/pdf/raspberry-pi-4-partial-schematic.pdf)
