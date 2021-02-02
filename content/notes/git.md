@@ -26,3 +26,4 @@ git commit -m "Prevent ARP cache poisoning"
 git diff --staged
 git push
 ```
+![Git's conceptual structure](/img/git-conceptual-structure.jpg)
