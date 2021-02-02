@@ -20,10 +20,27 @@ In the past, version control systems used a central server. This works fine for 
 ```
 git clone
 git pull
-git status
 git add .
-git commit -m "Prevent ARP cache poisoning"
+git status
 git diff --staged
+git commit -m "Prevent ARP cache poisoning"
 git push
 ```
+
+## Typical workflow ##
+
+1. You either create a new repository locally using `git init`, or you clone a repository from somewhere else using `git clone`.
+
+2. (With a cloned repository, if some time passes before you are actually ready to commit code, you would run `git pull` to get any new changes that have been committed.)
+
+3. Actually change the code in your working tree-- add new features, fix bugs, whatever. The "working tree" is just the code in your local folder. Take a look at the diagram below.
+
+4. Stage the code for commit with `git add`.
+
+5. Check that you didn't miss anything with `git status`. You can also review the changes that you have staged with `git diff --staged`. (Plain `git diff` shows you the unstaged changes, i.e. stuff you haven't added to the index yet.)
+
+6. Commit the code with `git commit -m 'Write what your changes do in this commit message'`.
+
+7. If you're just working locally, you're done. You can review your changes with `git log`. Otherwise, you can push your code to a remote repository, like Github, using `git push`.
+
 ![Git's conceptual structure](/img/git-conceptual-structure.jpg)
