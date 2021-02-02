@@ -69,8 +69,8 @@ We have at least one student in the class who will be remote, so the course will
 
 Brandon's office hours are:
 
-*   Tues/Thurs 3-4:30pm, via Zoom (https://tufts.zoom.us/my/brandon.of.nolop)
-*   All the other hours, via Slack (https://micropropro.slack.com) (register with your Tufts email)
+* Sundays, 8:30-9:30 PM and Wednesdays, noon-1 PM, via Zoom (https://tufts.zoom.us/my/brandon.of.nolop)
+* All the other hours, via Slack (https://micropropro.slack.com) (register with your Tufts email)
 
 ## Learning assistants
 
