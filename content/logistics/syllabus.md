@@ -94,7 +94,7 @@ I take honesty very seriously. Not only am I required to report violations of ac
 
 ## Sharing
 
-Tufts has asked me to include this statement: "It is against Tufts policy for anyone to share any content made available in this course including course syllabi, reading materials, problems sets, videos, handouts, and exams, with anyone outside of the course without the express permission of the instructor." I hereby grant you, and everyone else in the world, express permission to share all materials from this course, including the course syllabus, reading materials, problem sets, videos, handouts, and exams, as widely as you like. In fact, I encourage you to do so.
+Tufts has asked me to include this statement: "It is against Tufts policy for anyone to share any content made available in this course including course syllabi, reading materials, problems sets, videos, handouts, and exams, with anyone outside of the course without the express permission of the instructor." I hereby grant you, and everyone else in the world, express permission to share all materials from this course, including the course syllabus, reading materials, problem sets, videos, handouts, and exams, as widely as you like, under the CC-BY-SA Creative Commons License linked at the bottom of the page. In fact, I encourage you to do so.
 
 "He who receives an idea from me, receives instruction himself without lessening mine; as he who lights his taper at mine, receives light without darkening me." --Thomas Jefferson
 
