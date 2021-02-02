@@ -6,10 +6,6 @@ draft: false
 
 ME 193, Microcontroller Programming Projects, Section MPP, class number 23715
 
-## If you are in this class, go join our Slack workspace: https://micropropro.slack.com with your Tufts email.
-
-# DRAFT DRAFT DRAFT
-
 ## This is a new course, so we are attaching the wings to the plane as the plane is accelerating down the runway.
 
 If you see weird references to ME 30, that's because this website is based off the ME 30 website, and I'm still revising it.
