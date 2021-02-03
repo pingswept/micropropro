@@ -10,7 +10,7 @@ MPP is a new course at Tufts University in the spring of 2021 taught by Brandon 
 
 You're going to love it.
 
-## If you are in this class, go join our Slack workspace: https://micropropro.slack.com with your Tufts email.
+Class sessions are in Brandon's Zoom room: https://tufts.zoom.us/my/brandon.of.nolop
 
 ## Instructor
 
