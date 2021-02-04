@@ -10,3 +10,11 @@ draft: "false"
 [Raspberry Pi Pico datasheet](/pdf/raspberry-pi-pico-datasheet.pdf)
 
 [RP2040 datasheet](/pdf/microcontroller-RP2040.pdf)
+
+![Raspberry Pi Pico](/img/raspberry-pi-pico.jpg)
+
+![Raspberry Pi Pico X-ray](/img/raspberry-pi-pico-xray.jpg)
+
+![Decapped RP2040 die](/img/decapped-rp2040.jpg)
+
+[High resolution, zoomable image of RP2040 die](https://siliconpr0n.org/map/raspberry-pi/rp2-b0/mz_mit20x/), thanks to John McMaster
