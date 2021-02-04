@@ -13,7 +13,7 @@ draft: "false"
 
 ![Raspberry Pi Pico](/img/raspberry-pi-pico.jpg)
 
-![Raspberry Pi Pico X-ray](/img/raspberry-pi-pico-xray.jpg)
+![Raspberry Pi Pico X-ray](/img/raspberry-pi-pico-xray.png)
 
 ![Decapped RP2040 die](/img/decapped-rp2040.jpg)
 
