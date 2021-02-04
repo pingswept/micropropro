@@ -18,3 +18,5 @@ draft: "false"
 ![Decapped RP2040 die](/img/decapped-rp2040.jpg)
 
 [High resolution, zoomable image of RP2040 die](https://siliconpr0n.org/map/raspberry-pi/rp2-b0/mz_mit20x/), thanks to John McMaster
+
+[Twitter thread with more RP2040 images](https://twitter.com/johndmcmaster/status/1355092011829719046) from John McMaster
