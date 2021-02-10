@@ -32,7 +32,7 @@ This class will be mostly about programming microcontrollers. But, around 90% of
 
 ## P2: Program an oscilloscope puzzle for the Pico
 
-ME 30 is the electronics course that every mechanical engineering junior takes at Tufts. Next year, it will have a new challenge called "the oscilloscope puzzle." The goal is to teach ME 30 students how to use an oscilloscope, which is a device that measures voltage like a multimeter, but shows you a graph of voltage over time, rather than just a single instantaneous reading. The ME 30 students, hereafter called "the detectives," will have to use an oscilloscope to find signals on the Pico's pins, interpret them, and then follow whatever directions they give to advance through the puzzle.
+ME 30 is the electronics course that every mechanical engineering junior takes at Tufts. Next year, it will have a new challenge called "the oscilloscope puzzle." The goal is to teach ME 30 students how to use an oscilloscope, which is a device that measures voltage like a multimeter, but shows you a graph of voltage over time, rather than just a single instantaneous reading. The ME 30 students, hereafter called "the detectives," will have to use an oscilloscope to find signals on the Pico's pins, interpret them, and then follow whatever directions they find to advance through the puzzle.
 
 There's another goal too, which is to get you all to learn how to program a Pico, and especially how to implement a state machine.
 
@@ -52,3 +52,5 @@ STATE SOLVED: *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_
 ```
 
 * The Pico should start in state ONE upon power up.
+* In each of the first three states, the Pico should emit some kind of electrical signal that encodes (in a short, simple way!) instructions that describe an action the detectives should take to make the Pico advance to the next state.
+* In the SOLVED state, the Pico should send a message out its USB port at 115200 bps that says, "PUZZLE SOLVED! Secret key: " followed by a SHA-256 hash that will be described in class. (Yes, a shrewd detective might try to extract the binary from the Pico and find the hash in the binary. Assuming you have deployed no countermeasures, it might even work, but then the detective is getting practice with reverse engineering, which is still good.)
