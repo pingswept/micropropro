@@ -32,6 +32,7 @@ STATE SOLVED: *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_
 * You can write code in whatever language you can get to run (C, Python, maybe Rust?).
 * You should publish your code in a private repository on Github that is called `oscilloscope-puzzle`, and the file to be copied to the Pico should be called `puzzle.uf2` or `puzzle.py`. With your permission, I will fork all of your repositories to the Micropropro organization. If you would rather not really contribute your code to the puzzle effort, you can just keep your repository private, and submit your code by some other means.
 * (I'm hoping to deploy [Nscopes](http://nscope.org) for testing.)
+* There is state machine hardware built into the RP2040, but a software state machine is preferred for future portability, unless you really want to experiment with the hardware.
 
 ## P1: Design and build a new Raspberry Pi Pico accessory
 
