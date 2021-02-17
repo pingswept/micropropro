@@ -9,12 +9,12 @@ draft: false
 |------|--------|----------------------------------------------------------------------------------------|------------------|---------------------------------------------------|
 |  1   |  2/2   | Welcome, the plan, and intro to Git                                           |                  |                                                   |
 |      |  2/4   | Hashes        |                  | SB1: Git      |
-|  2   |  2/9   | Bitmasks and embedded C       |         |          |
+|  2   |  2/9   | C and Python on the Pico       |         |          |
 |      |  2/11  | Crypto, SSH and SSL |                  | [P1](/logistics/projects/#p1-design-and-build-a-new-raspberry-pi-pico-accessory)                        |
 |  3   |  2/16  | NO CLASS, Monday schedule    |         |          |
-|      |  2/18  | CPU architecture        |         | SB2: Shell customization |
-|  4   |  2/23  | Bootloaders  |         |          |
-|      |  2/25  | State machines        |         | P2         |
+|      |  2/18  | State machines        |         |  |
+|  4   |  2/23  | Bootloaders and bitmasks  |         | SB2: Shell customization         |
+|      |  2/25  | CPU architecture        |         | P2         |
 |  5   |  3/2   | Hardware timers      |         | SB3: packet sniffing         |
 |      |  3/4   | Memory maps, DMA        |         | SB4: Puppet or Ansible      |
 |  6   |  3/9   | Compilers      |        |          |
