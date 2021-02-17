@@ -3,6 +3,18 @@ title: "Skill builders"
 draft: false
 ---
 
+
+## SB2: customize your Pi shell ##
+
+* Install Zsh on your Pi
+* Install [Oh-My-Zsh](https://ohmyz.sh/)
+* Change the Zsh theme to one you like
+* Install at least one plugin
+
+Here are some instructions that explain how to do both tasks together: https://www.seeedstudio.com/blog/2020/03/06/prettify-raspberry-pi-shell-with-oh-my-zsh/
+
+If you are on Windows and using WSL2, you might find this useful: https://blog.nillsf.com/index.php/2020/02/17/setting-up-wsl2-windows-terminal-and-oh-my-zsh/
+
 ## SB1: git ##
 
 * Install git on your Raspberry Pi 4
