@@ -8,13 +8,13 @@ draft: false
 | Week |  Date  |     Class topic (PROBABLY STILL TOTALLY OUT OF ORDER!!!)                               | Notes            |               Assignment due dates (10:30 AM)                         |
 |------|--------|----------------------------------------------------------------------------------------|------------------|---------------------------------------------------|
 |  1   |  2/2   | Welcome, the plan, and intro to Git                                           |                  |                                                   |
-|      |  2/4   | Hashes        |                  | SB1: Git      |
+|      |  2/4   | Hashes        |                  | [SB1: Git](http://micropropro.com/logistics/skills/#sb1-git)      |
 |  2   |  2/9   | C and Python on the Pico       |         |          |
 |      |  2/11  | Crypto, SSH and SSL |                  | [P1](/logistics/projects/#p1-design-and-build-a-new-raspberry-pi-pico-accessory)                        |
 |  3   |  2/16  | NO CLASS, Monday schedule    |         |          |
 |      |  2/18  | State machines        |         |  |
-|  4   |  2/23  | Bootloaders and bitmasks  |         | SB2: Shell customization         |
-|      |  2/25  | CPU architecture        |         | P2 and SB3: pastebins         |
+|  4   |  2/23  | Bootloaders and bitmasks  |         | [SB2: Shell customization](http://micropropro.com/logistics/skills/#sb2-customize-your-pi-shell)         |
+|      |  2/25  | CPU architecture        |         | [P2](http://micropropro.com/logistics/projects/#p2-program-an-oscilloscope-puzzle-for-the-pico) and [SB3: pastebins](http://micropropro.com/logistics/skills/#sb3-learn-to-use-pastebins)         |
 |  5   |  3/2   | Hardware timers      |         |          |
 |      |  3/4   | Memory maps, DMA        |         | SB4: Puppet or Ansible      |
 |  6   |  3/9   | Compilers      |        |          |
