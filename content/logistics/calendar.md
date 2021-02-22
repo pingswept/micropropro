@@ -14,8 +14,8 @@ draft: false
 |  3   |  2/16  | NO CLASS, Monday schedule    |         |          |
 |      |  2/18  | State machines        |         |  |
 |  4   |  2/23  | Bootloaders and bitmasks  |         | SB2: Shell customization         |
-|      |  2/25  | CPU architecture        |         | P2         |
-|  5   |  3/2   | Hardware timers      |         | SB3: packet sniffing         |
+|      |  2/25  | CPU architecture        |         | P2 and SB3: pastebins         |
+|  5   |  3/2   | Hardware timers      |         |          |
 |      |  3/4   | Memory maps, DMA        |         | SB4: Puppet or Ansible      |
 |  6   |  3/9   | Compilers      |        |          |
 |      |  3/11  | Interpreters        |          |  P3        |
