@@ -9,7 +9,7 @@ draft: false
 * Try using https://pastebin.com at least once.
 * If you do not know how to copy and paste with your terminal program, figure it out using Google.
 * For PuTTY: https://www.alphr.com/copy-paste-putty/
-* Think of other areas of your life where inadvertent typing errors or illegible screenshots could be impairing your performance; eliminate them.
+* Think of other areas of your life where inadvertent typing errors or illegible screenshots could be impairing your performance; eliminate them. Ascend to a higher plane of professional communication.
 
 ## SB2: customize your Pi shell ##
 
