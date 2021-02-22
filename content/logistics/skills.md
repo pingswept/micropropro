@@ -3,6 +3,12 @@ title: "Skill builders"
 draft: false
 ---
 
+## SB3: learn to use pastebins
+
+* The next time you need to share code, create a gist at https://gist.github.com.
+* Try using https://pastebin.com at least once.
+* If you do not know how to copy and paste with your terminal program, figure it out using Google.
+* For PuTTY: https://www.alphr.com/copy-paste-putty/
 
 ## SB2: customize your Pi shell ##
 
