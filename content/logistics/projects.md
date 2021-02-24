@@ -76,3 +76,4 @@ A few other notes:
 * You should write your first version in Python. After that, use whatever language you want (more Python, C, Cython, Julia, or even Javascript).
 * The goal here is to get you some exposure to scientific computing, some experience with using a mathematical model to reach a real solution, and possibly some appreciation for the value of numerical solutions in our era of fast, cheap computation.
 * You might need to do some research to execute this project. There are lots of different ways to optimize the performance of your code; this project is not simply, "Write the code and then click the button labeled 100x in the IDE." (It would be cool if that button existed.)
+* Because you will likely have multiple versions of your code as you complete the project, this would be a great opportunity to use git/Github as a version control tool.
