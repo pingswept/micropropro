@@ -4,6 +4,26 @@ draft: false
 ---
 # Projects
 
+## P3: Use your Pi computer for actual computation
+
+Throughout engineering school, you learn to create mathematical models in a variety of different domains: heat transfer, fluids, dynamics, mechanics, and so forth. In school, we often use these models to solve a unique problem with known parameters: "If I have a flat plate at 25 C of these dimensions and I pour N watts into one edge with a torch, how long until the far corner reaches the boiling point of tears?"
+
+In professional practice, we do the same thing, but we often have a lot less certainty about the input parameters than the problems you find in textbooks. This means that we need to execute our calculations repeatedly, and we often want to do that as fast as we can. This is when we use computers.
+
+The project has two parts:
+
+1. Week 1: Pick an engineering problem and solve it on your Pi in Python. Measure how long it takes your code to find the solution.
+2. Week 2: Make your code run faster. If you can hit 100 times faster, create a sensitivity analyis, where you sweep your solution across a range of possible inputs and create a visualization of how the result changes.
+3. (Optional: create a web-based interface that graphs your results on the Pi.)
+
+A few other notes:
+
+* Pick a problem that you have some idea how to solve, not some insanely impossible thing. A final exam problem from your favorite class last semester would be a good choice. The problem does not have to be from a class. Something with a differential equation that you can solve numerically would be a good target.
+* You should write your first version in Python. After that, use whatever language you want (more Python, C, Cython, Julia, or even Javascript).
+* The goal here is to get you some exposure to scientific computing, some experience with using a mathematical model to reach a real solution, and possibly some appreciation for the value of numerical solutions in our era of fast, cheap computation.
+* You might need to do some research to execute this project. There are lots of different ways to optimize the performance of your code; this project is not simply, "Write the code and then click the button labeled 100x in the IDE." (It would be cool if that button existed.)
+* Because you will likely have multiple versions of your code as you complete the project, this would be a great opportunity to use git/Github as a version control tool.
+
 ## P2: Program an oscilloscope puzzle for the Pico
 
 ME 30 is the electronics course that every mechanical engineering junior takes at Tufts. Next year, it will have a new challenge called "the oscilloscope puzzle." The goal is to teach ME 30 students how to use an oscilloscope, which is a device that measures voltage like a multimeter, but shows you a graph of voltage over time, rather than just a single instantaneous reading. The ME 30 students, hereafter called "the detectives," will have to use an oscilloscope to find signals on the Pico's pins, interpret them, and then follow whatever directions they find to advance through the puzzle.
@@ -57,23 +77,3 @@ A few detailed requirements:
 A note about programming:
 
 This class will be mostly about programming microcontrollers. But, around 90% of you are really excited to make PCBs that enable new programming opportunities. PCB fabrication takes a while, so we have to get the PCB out the door first. We'll mostly focus on programming after this first project, but we'll also do a second revision of this board as one of the later projects.
-
-## P3: Use your Pi computer for actual computation
-
-Throughout engineering school, you learn to create mathematical models in a variety of different domains: heat transfer, fluids, dynamics, mechanics, and so forth. In school, we often use these models to solve a unique problem with known parameters: "If I have a flat plate at 25 C of these dimensions and I pour N watts into one edge with a torch, how long until the far corner reaches the boiling point of tears?"
-
-In professional practice, we do the same thing, but we often have a lot less certainty about the input parameters than the problems you find in textbooks. This means that we need to execute our calculations repeatedly, and we often want to do that as fast as we can. This is when we use computers.
-
-The project has two parts:
-
-1. Week 1: Pick an engineering problem and solve it on your Pi in Python. Measure how long it takes your code to find the solution.
-2. Week 2: Make your code run faster. If you can hit 100 times faster, create a sensitivity analyis, where you sweep your solution across a range of possible inputs and create a visualization of how the result changes.
-3. (Optional: create a web-based interface that graphs your results on the Pi.)
-
-A few other notes:
-
-* Pick a problem that you have some idea how to solve, not some insanely impossible thing. A final exam problem from your favorite class last semester would be a good choice. The problem does not have to be from a class. Something with a differential equation that you can solve numerically would be a good target.
-* You should write your first version in Python. After that, use whatever language you want (more Python, C, Cython, Julia, or even Javascript).
-* The goal here is to get you some exposure to scientific computing, some experience with using a mathematical model to reach a real solution, and possibly some appreciation for the value of numerical solutions in our era of fast, cheap computation.
-* You might need to do some research to execute this project. There are lots of different ways to optimize the performance of your code; this project is not simply, "Write the code and then click the button labeled 100x in the IDE." (It would be cool if that button existed.)
-* Because you will likely have multiple versions of your code as you complete the project, this would be a great opportunity to use git/Github as a version control tool.
