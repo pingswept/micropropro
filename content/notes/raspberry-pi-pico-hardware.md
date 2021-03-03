@@ -11,6 +11,14 @@ draft: "false"
 
 [RP2040 datasheet](/pdf/microcontroller-RP2040.pdf)
 
+### Software reference materials
+
+[Raspberry Pi Pico: getting started with C programming](/pdf/raspberry-pi-pico-getting-started-with-c.pdf)
+
+[Raspberry Pi Pico C code reference](/pdf/raspberry-pi-pico-c-sdk.pdf)
+
+[Raspberry Pi Pico Python code reference](/pdf/raspberry-pi-pico-python-sdk.pdf)
+
 ![Raspberry Pi Pico](/img/raspberry-pi-pico.jpg)
 
 ![Raspberry Pi Pico X-ray](/img/raspberry-pi-pico-xray.png)
