@@ -89,7 +89,7 @@ There are, however, a few options:
 
 * **Option 1**: your P1 project was satisfying for you. Great! Make it better. If your PCB is flawless, make a smaller version and a beautiful enclosure for it. Write whatever code needs to be written to make it work. If you want, create a documentation website on Github. If you do that, make 10 and start selling them on [Tindie](https://www.tindie.com/). I will buy one.
 * **Option 2**: your P1 project was more of a PCB test project for you. Great! Make a new PCB that will do something even better.
-* **Option 3**: you're just not that into hardware. Great! Write an open source library for the Pi, the Pico, or another popular microcontroller and publish it on Github. If you want, create a documentation website too.
+* **Option 3**: you're just not that into hardware. Great! Write an open source library for the Pi, the Pico, or another popular microcontroller and publish it on Github. If you want, create a documentation website too. Your library should help people do something that _you_ think is useful.
 
 ### P4 Milestones
 
