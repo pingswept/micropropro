@@ -4,6 +4,27 @@ draft: false
 ---
 # Projects
 
+## P4: Pico: Endgame
+
+For P1, you made a PCB for a Pico accessory. In P4, your task is to refine your device.
+
+In most of the project work you do in school, you make something, submit it for grading, and then throw it in the trash. The goal of this project is to give you a chance to do deeper learning, by reviewing the work that you've done and taking another cut at improving it.
+
+There are, however, a few options:
+
+* **Option 1**: your P1 project was satisfying for you. Great! Make it better. If your PCB is flawless, make a smaller version and a beautiful enclosure for it. Write whatever code needs to be written to make it work. If you want, create a documentation website on Github. If you do that, make 10 and start selling them on [Tindie](https://www.tindie.com/). I will buy one.
+* **Option 2**: your P1 project was more of a PCB test project for you. Great! Make a new PCB that will do something even better.
+* **Option 3**: you're just not that into hardware. Great! Write an open source library for the Pi, the Pico, or another popular microcontroller and publish it on Github. If you want, create a documentation website too. Your library should help people do something that _you_ think is useful.
+
+### P4 Milestones
+
+There are two milestones for P4: a brief project proposal and a final submission. You must do both of them.
+
+* Before class on Tuesday, March 16, DM me a 1-3 sentence description of what you intend to do. I will either reply, "Approved!" or give you a few suggestions about how to tweak your proposal, if you've misunderstood the project requirements, or I have some confusing parts in this project description. The point of this milestone is just to get you to commit to a plan early.
+* Before class on Thursday, March 25, submit documentation of your project, similar to P1, on Canvas. Screenshots are fine.
+
+One more note: **it would be a really good idea to asssemble your PCB from P1** to validate your initial design decisions and discover any problems. You can get stuff soldered via the #soldering channel in the Nolop Slack.
+
 ## P3: Use your Pi computer for actual computation
 
 Throughout engineering school, you learn to create mathematical models in a variety of different domains: heat transfer, fluids, dynamics, mechanics, and so forth. In school, we often use these models to solve a unique problem with known parameters: "If I have a flat plate at 25 C of these dimensions and I pour N watts into one edge with a torch, how long until the far corner reaches the boiling point of tears?"
@@ -77,25 +98,3 @@ A few detailed requirements:
 A note about programming:
 
 This class will be mostly about programming microcontrollers. But, around 90% of you are really excited to make PCBs that enable new programming opportunities. PCB fabrication takes a while, so we have to get the PCB out the door first. We'll mostly focus on programming after this first project, but we'll also do a second revision of this board as one of the later projects.
-
-<!--
-## P4: Pico: Endgame
-
-For P1, you made a PCB for a Pico accessory. In P4, your task is to refine your device.
-
-In most of the project work you do in school, you make something, submit it for grading, and then throw it in the trash. The goal of this project is to give you a chance to do deeper learning, by reviewing the work that you've done and taking another cut at improving it.
-
-There are, however, a few options:
-
-* **Option 1**: your P1 project was satisfying for you. Great! Make it better. If your PCB is flawless, make a smaller version and a beautiful enclosure for it. Write whatever code needs to be written to make it work. If you want, create a documentation website on Github. If you do that, make 10 and start selling them on [Tindie](https://www.tindie.com/). I will buy one.
-* **Option 2**: your P1 project was more of a PCB test project for you. Great! Make a new PCB that will do something even better.
-* **Option 3**: you're just not that into hardware. Great! Write an open source library for the Pi, the Pico, or another popular microcontroller and publish it on Github. If you want, create a documentation website too. Your library should help people do something that _you_ think is useful.
-
-### P4 Milestones
-
-There are two milestones for P4: a brief project proposal and a final submission. You must do both of them.
-
-* Before class on Tuesday, March 16, DM me a 1-3 sentence description of what you intend to do. I will either reply, "Approved!" or give you a few suggestions about how to tweak your proposal, if you've misunderstood the project requirements, or I have some confusing parts in this project description. The point of this milestone is just to get you to commit to a plan early.
-* Before class on Thursday, March 25, submit documentation of your project, similar to P1, on Canvas. Screenshots are fine.
-
-One more note: **it would be a really good idea to asssemble your PCB from P1** to validate your initial design decisions and discover any problems. You can get stuff soldered via the #soldering channel in the Nolop Slack. -->
