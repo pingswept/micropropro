@@ -46,3 +46,53 @@ Successfully installed bcrypt-3.2.0 cffi-1.14.5 fabric-2.6.0 invoke-1.5.0 parami
 
 First, burn a new SD card, change the root password, and get your Pi on the internet. Fabric connects over SSH, so you have to be able to connect via SSH for any of this to work.
 
+Here's an example script.
+
+```python
+from fabric import task
+
+# Usage
+#
+# fab -H pi@192.168.1.217 --prompt-for-login-password deploy
+
+@task
+def deploy(c):
+    hostname = c.run('hostname', hide=True).stdout
+    print('\033[32;1mLogged into {0}\033[0m'.format(hostname))
+
+    for package in DEBIAN_PACKAGES_TO_INSTALL:
+        install_debian_package(c, package)
+
+    for module in PYTHON_MODULES_TO_INSTALL:
+        install_python_module(c, module)
+
+    install_config_files(c)
+
+    print('Deployment complete. Rebooting...')
+    c.sudo('reboot')
+
+def install_python_module(c, module):
+    print('\nInstalling Python module: {0}'.format(module))
+    c.run('pip3 install ' + module)
+
+def install_debian_package(c, package):
+    print('\nInstalling package: {0}'.format(package))
+    c.sudo('DEBIAN_FRONTEND=noninteractive apt install -y ' + package)
+
+def install_config_files(c):
+    print('Copying over config files . . .')
+    c.put('vimrc', '/home/pi/.vimrc')
+    c.put('gitconfig', '/home/pi/.gitconfig')
+    c.put('issue', '/etc/issue')
+    c.put('issue.sh', '/etc/profile.d/issue.sh')
+
+PYTHON_MODULES_TO_INSTALL = [
+    'flask',
+    'pysolar'
+]
+
+DEBIAN_PACKAGES_TO_INSTALL = [
+    'htop'
+]
+```
+
