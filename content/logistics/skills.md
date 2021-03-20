@@ -3,6 +3,45 @@ title: "Skill builders"
 draft: false
 ---
 
+## SB5: Build the Linux kernel for your Pi
+
+```bash
+sudo apt install git bc bison flex libssl-dev make
+git clone --depth=1 https://github.com/raspberrypi/linux
+cd linux
+KERNEL=kernel7l
+make bcm2711_defconfig
+```
+Then edit `CONFIG_LOCALVERSION` in `.config` so that it says `CONFIG_LOCALVERSION="-v7l-MPP"` or whatever you want to call your kernel.
+
+```bash
+make -j4 zImage modules dtbs
+sudo make modules_install
+sudo cp arch/arm/boot/dts/*.dtb /boot/
+sudo cp arch/arm/boot/dts/overlays/*.dtb* /boot/overlays/
+sudo cp arch/arm/boot/dts/overlays/README /boot/overlays/
+sudo cp arch/arm/boot/zImage /boot/$KERNEL.img
+```
+
+## SB4: use Fabric to configure your Pi
+
+Fabric is a Python library for managing servers. If you find yourself setting up Raspberry Pi’s a lot, it’s a good tool for recreating the customizations that you like without having to remember all the details yourself.
+
+Here's a good minimal framework to get you started. Save this as a file called `fabfile.py`:
+
+```python
+from fabric import task
+
+# Usage
+#
+# fab -H pi@192.168.1.217 --prompt-for-login-password deploy
+
+@task
+def deploy(c):
+    hostname = c.run('hostname', hide=True).stdout
+    print('\033[32;1mLogged into {0}\033[0m'.format(hostname))
+```
+
 ## SB3: learn to use pastebins
 
 * The next time you need to share code, create a gist at https://gist.github.com.
