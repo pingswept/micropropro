@@ -33,6 +33,29 @@ For a kernel with real-time patches applied, you can check out the `rpi-4.19.y-r
 git clone --depth=1 --branch rpi-4.19.y-rt https://github.com/raspberrypi/linux
 ```
 
+Default options you'll see in `.config`:
+```bash
+#
+# Timers subsystem
+#
+CONFIG_TICK_ONESHOT=y
+CONFIG_NO_HZ_COMMON=y
+# CONFIG_HZ_PERIODIC is not set
+CONFIG_NO_HZ_IDLE=y
+# CONFIG_NO_HZ_FULL is not set
+CONFIG_NO_HZ=y
+CONFIG_HIGH_RES_TIMERS=y
+CONFIG_PREEMPT=y
+CONFIG_PREEMPT_RT_BASE=y
+CONFIG_HAVE_PREEMPT_LAZY=y
+CONFIG_PREEMPT_LAZY=y
+# CONFIG_PREEMPT_NONE is not set
+# CONFIG_PREEMPT_VOLUNTARY is not set
+# CONFIG_PREEMPT__LL is not set
+# CONFIG_PREEMPT_RTB is not set
+CONFIG_PREEMPT_RT_FULL=y
+CONFIG_PREEMPT_COUNT=y
+```
 ## SB4: use Fabric to configure your Pi
 
 Fabric is a Python library for managing servers. If you find yourself setting up Raspberry Pi’s a lot, it’s a good tool for recreating the customizations that you like without having to remember all the details yourself.
