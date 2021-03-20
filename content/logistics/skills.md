@@ -25,7 +25,11 @@ sudo cp arch/arm/boot/zImage /boot/$KERNEL.img
 sudo reboot
 ```
 
-You can check that you're running the new kernel with `uname -a`.
+You can check that you're running the new kernel with `uname -a`. You should see something like:
+
+```bash
+Linux raspberrypi 5.10.23-v7l-MPP+ #1 SMP Sat Mar 20 16:00:23 GMT 2021 armv7l GNU/Linux
+```
 
 For a kernel with real-time patches applied, you can check out the `rpi-4.19.y-rt` branch and rebuild the kernel.
 
