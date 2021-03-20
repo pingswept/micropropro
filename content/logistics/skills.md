@@ -9,13 +9,13 @@ draft: false
 sudo apt install git bc bison flex libssl-dev make
 git clone --depth=1 https://github.com/raspberrypi/linux
 cd linux
-KERNEL=kernel7l
+KERNEL=kernel7l # Note that this is kernel-7-ell, not kernel-7-one
 make bcm2711_defconfig
 ```
 Then edit `CONFIG_LOCALVERSION` in `.config` so that it says `CONFIG_LOCALVERSION="-v7l-MPP"` or whatever you want to call your kernel.
 
 ```bash
-make -j4 zImage modules dtbs
+make -j4 zImage modules dtbs # This step is the long one (70-90 minutes, depending on temperature)
 sudo make modules_install
 sudo cp arch/arm/boot/dts/*.dtb /boot/
 sudo cp arch/arm/boot/dts/overlays/*.dtb* /boot/overlays/
