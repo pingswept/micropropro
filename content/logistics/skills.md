@@ -12,6 +12,7 @@ cd linux
 KERNEL=kernel7l # Note that this is kernel-7-ell, not kernel-7-one
 make bcm2711_defconfig
 ```
+
 Then edit `CONFIG_LOCALVERSION` in `.config` so that it says `CONFIG_LOCALVERSION="-v7l-MPP"` or whatever you want to call your kernel.
 
 ```bash
@@ -21,6 +22,15 @@ sudo cp arch/arm/boot/dts/*.dtb /boot/
 sudo cp arch/arm/boot/dts/overlays/*.dtb* /boot/overlays/
 sudo cp arch/arm/boot/dts/overlays/README /boot/overlays/
 sudo cp arch/arm/boot/zImage /boot/$KERNEL.img
+sudo reboot
+```
+
+You can check that you're running the new kernel with `uname -a`.
+
+For a kernel with real-time patches applied, you can check out the `rpi-4.19.y-rt` branch and rebuild the kernel.
+
+```bash
+git clone --depth=1 --branch rpi-4.19.y-rt https://github.com/raspberrypi/linux
 ```
 
 ## SB4: use Fabric to configure your Pi
