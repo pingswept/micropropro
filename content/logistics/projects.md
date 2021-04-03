@@ -12,7 +12,7 @@ Your mission in P5 is to gain some experience with the Raspberry Pi Pico's PIO s
 
 Some calculus review: we call the first derivative of position "velocity," the second derivative "acceleration," and the third derivative "jerk." Consider a robot arm where the motors controlling the joints can change acceleration rapidly-- this is an arm that moves jerkily. In some cases, that's fine, but what if we want smooth motion?
 
-That's pretty easy to solve in software, right? You just keep track of your PWM duty cycle and never change it more than some limit. But, that means that you just lost the advantage of having PWM hardware in your chip; you're having to manage your motor control on every loop of your program. It would be better if you could just send a target velocity to the PIO hardware and have it figure out how to get there smoothly.
+That's pretty easy to solve in software, right? You just keep track of your PWM duty cycle and never change it more than some limit (there are some complex details here that you can think over). But, that means that you just lost the advantage of having PWM hardware in your chip; you're having to manage your motor control on every loop of your program. It would be better if you could just send a target velocity to the PIO hardware and have it figure out how to get there smoothly.
 
 If you're feeling advanced, you could also use your PIO code to linearize the PWM vs. speed curve, so that an N% duty cycle gives you N% of your top speed. Without this, your motor probably doesn't actually start spinning until 10-20%, and then gets very close to top speed around 80%.
 
