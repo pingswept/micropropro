@@ -39,7 +39,7 @@ There are two milestones for P4: a brief project proposal and a final submission
 * Before class on Tuesday, March 16, DM me a 1-3 sentence description of what you intend to do. I will either reply, "Approved!" or give you a few suggestions about how to tweak your proposal, if you've misunderstood the project requirements, or I have some confusing parts in this project description. The point of this milestone is just to get you to commit to a plan early.
 * Before class on Thursday, April 1, submit documentation of your project, similar to P1, on Canvas. Screenshots are fine.
 
-One more note: **it would be a really good idea to asssemble your PCB from P1** to validate your initial design decisions and discover any problems. You can get stuff soldered via the #soldering channel in the Nolop Slack.
+One more note: **it would be a really good idea to assemble your PCB from P1** to validate your initial design decisions and discover any problems. You can get stuff soldered via the #soldering channel in the Nolop Slack.
 
 ## P3: Use your Pi computer for actual computation
 
