@@ -6,15 +6,15 @@ draft: false
 
 ## P5: Pi Pico PIO pioneering
 
+**(WELCOME TO P5 2.0! NOW WITH MORE REALITY!)**
+
 Your mission in P5 is to gain some experience with the Raspberry Pi Pico's PIO subsystem.
 
-* **Option 1** Write a PWM controller that runs on the PIO hardware and allows only smooth acceleration. Connect your Pico to a small DC motor and a MOSFET and make a short video demonstrating smooth operation vs. jerky operation. (Nolop will have MOSFETs and a small motors if you don't have them.)
+* **Option 1** Write a PWM controller that runs on the Pico and allows only smooth acceleration. Your code should use the PIO hardware to output a PWM signal. You can limit acceleration in your Python code (as it appears to be impossible to do it in the PIO state machine). Connect your Pico to a small DC motor and a MOSFET and make a short video demonstrating smooth operation vs. jerky operation. (Nolop will have MOSFETs and a small motors if you don't have them.)
 
-Some calculus review: we call the first derivative of position "velocity," the second derivative "acceleration," and the third derivative "jerk." Consider a robot arm where the motors controlling the joints can change acceleration rapidly-- this is an arm that moves jerkily. In some cases, that's fine, but what if we want smooth motion?
+Some calculus review: we call the first derivative of position "velocity," the second derivative "acceleration," and the third derivative "jerk." Consider a robot arm where the motors controlling the joints can change acceleration rapidly-- this is an arm that moves jerkily. In some cases, that's fine, but what if we want smooth motion? You can keep track of the acceleration and only allow it to change slowly, thereby enforcing smooth motion.
 
-That's pretty easy to solve in software, right? You just keep track of your PWM duty cycle and never change it more than some limit (there are some complex details here that you can think over). But, that means that you just lost the advantage of having PWM hardware in your chip; you're having to manage your motor control on every loop of your program. It would be better if you could just send a target velocity to the PIO hardware and have it figure out how to get there smoothly.
-
-If you're feeling advanced, you could also use your PIO code to linearize the PWM vs. speed curve, so that an N% duty cycle gives you N% of your top speed. Without this, your motor probably doesn't actually start spinning until 10-20%, and then gets very close to top speed around 80%.
+If you're feeling advanced, you could also linearize the PWM vs. speed curve, so that an N% duty cycle gives you N% of your top speed. Without this, your motor probably doesn't actually start spinning until 10-20%, and then gets very close to top speed around 80%.
 
 A few other notes: you should probably do this in Python. Note that Micropython and Circuitpython deal with the PIO hardware differently, so use Micropython unless you have a good reason to switch.
 
