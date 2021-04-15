@@ -4,6 +4,14 @@ draft: false
 ---
 # Projects
 
+## P6: Build something useful
+
+You're now a reasonably competent embedded systems engineer. Design and build something that solves a problem in the world. It should be either hardware that plugs into or contains a microcontroller, or code that runs on a microcontroller, or a combination of the both. If you lean toward software, your project could be as simple as a test suite for an open source Raspberry Pi library. If you lean toward hardware, it could be as simple as a breakout board for a newly-released sensor. The main point is that you should think of something that is interesting to YOU.
+
+If you want to expand your range, you can work in teams of two, where one of you focuses on hardware and one of you focuses on software.
+
+If you decide to make a PCB, it should definitely be submitted to the manufacturer by the project deadline, but it need not arrive back by then.
+
 ## P5: Pi Pico PIO pioneering
 
 **(WELCOME TO P5 2.0! NOW WITH MORE REALITY!)**
